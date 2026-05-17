@@ -2,9 +2,17 @@
 
 ### BYD vs Tesla vs Toyota — Analise Quantitativa de 8 Anos de Mercado
 
-> **BYD ultrapassou a Tesla em vendas globais de EVs em 2025.**
-> A Toyota, gigante do motor a combustao, agora corre contra o tempo.
-> **Este analise investiga 2.035 pregoes para descobrir quem esta vencendo — e quem perde dinheiro tentando prever o mercado.**
+![Performance Normalizada](assets/normalized_performance.png)
+
+---
+
+## TL;DR
+
+- **BYD esta estruturalmente posicionada para dominar EVs em mercados emergentes** — retorno consistente, volatilidade controlada, modelo agressivo
+- **Tesla entrega o melhor risco-retorno (Sharpe 0.89)** — mas drawdowns de 60%+ destroem capital de despreparados
+- **Toyota esta sendo punida pelo mercado pela transicao lenta** — conservadorismo tem custo real
+- **ML com dados publicos nao prevê direcao** — AUC 0.52 = aleatoriedade. Mercado e eficiente
+- **Diversificacao entre EVs nao protege** — correlacao sobe em crises. Precisa de setores diferentes
 
 **Periodo:** Jan 2018 — Fev 2026 | **Dados:** Yahoo Finance | **Pipeline:** Python (1170+ linhas)
 
@@ -195,13 +203,16 @@ byd-analise/
 
 ---
 
-## Conclusao
+## Final Take
 
-**BYD esta estruturalmente posicionada para liderar a transicao global de EVs, especialmente em mercados emergentes.** A Tesla mantem a lideranca em valorizacao, mas o risco e incompativel com investidores conservadores. A Toyota esta em transicao — e o mercado esta precificando a incerteza.
+**Se voce e investidor:**
+Considere exposicao a BYD para crescimento em mercados emergentes. Use Tesla para risco-retorno ajustado, mas com stop-loss disciplinado. Toyota serve como hedge conservador — nao como motor de crescimento.
 
-**Para investidores:** Diversificacao entre setores e gestao de risco superam qualquer tentativa de prever movimentos de curto prazo. Os dados mostram que Buy & Hold com disciplina vence modelos complexos.
+**Se voce e analista de dados:**
+Foque menos em previsao e mais em interpretacao. Dados financeiros recompensam quem entende o negocio, nao quem tem o modelo mais complexo. Saber explicar um grafico vale mais que treinar 10 algoritmos.
 
-**Para analistas:** Dados financeiros exigem rigor — normalidade nao existe, correlacoes mudam, e modelos lineares tem limites claros. Saber interpretar e mais importante do que saber modelar.
+**Se voce e gestor de portfolio:**
+Diversifique entre setores, nao so entre EVs. Correlacoes mudam — protecao precisa de ativos descorrelacionados. Drawdown importa mais que retorno medio.
 
 ---
 
