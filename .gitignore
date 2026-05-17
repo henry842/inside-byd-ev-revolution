@@ -1,0 +1,23 @@
+# Intermediate data files
+processed_data.csv
+featured_data.csv
+simple_model_predictions.csv
+simple_model_results.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
